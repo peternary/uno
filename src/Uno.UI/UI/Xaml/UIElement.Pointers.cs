@@ -163,7 +163,7 @@ namespace Windows.UI.Xaml
 				{
 					return ctrl.IsLoaded && ctrl.IsEnabled;
 				}
-				else if (this is Windows.UI.Xaml.Controls.Control fwElt)
+				else if (this is Windows.UI.Xaml.FrameworkElement fwElt)
 				{
 					return fwElt.IsLoaded;
 				}
